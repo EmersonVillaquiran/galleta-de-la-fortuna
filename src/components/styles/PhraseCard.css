@@ -1,14 +1,16 @@
 .phrase {
     width: 100%;
-    max-width: 480px;
+    max-width: 650px;
     background-color: rgb(219, 228, 235);
-    border: 0.2em solid rgb(28, 28, 161);
+    border: 0.15em solid rgb(28, 28, 161);
     border-radius: 10px;
     color: black;
-    padding: 2em;
+    padding: 1.5em;
     font-weight: 300;
     text-align: center;
     line-height: 1.5;
+    font-size: 2rem;
+    box-shadow: 0.3em 0.3em 0.5em rgba(73, 37, 11, 0.572);
   }
   .phrase::after{
     content: '"';
