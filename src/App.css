@@ -1,0 +1,31 @@
+.app{
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4em;
+}
+
+
+.tittle{
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
+  color: #efb029;
+  font-weight:bold;
+  font-family: cursive;
+  -webkit-text-stroke: 1px #b3640b;
+  text-align: center;
+}
+
+.author{
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.548);
+  color: black;
+  margin: 0.5em 5em 0em 5em;
+}
+
+

@@ -1,0 +1,27 @@
+.phrase {
+    width: 100%;
+    max-width: 480px;
+    background-color: rgb(219, 228, 235);
+    border: 0.2em solid rgb(28, 28, 161);
+    border-radius: 10px;
+    color: black;
+    padding: 2em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .phrase::after{
+    content: '"';
+  } 
+  .phrase::before{
+    content: '"';
+  } 
+  
+  @media (max-width: 450px ) {
+      .phrase{
+        width: 100%;
+        max-width: 370px;
+        padding: 0.5em;
+        font-size: 1.5rem;
+      }
+  }

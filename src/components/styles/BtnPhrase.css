@@ -1,0 +1,16 @@
+
+.card__button {
+    background-color: #efb029;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    color: #77450d;
+    border-color: #77450d;
+    transition: transform 100ms ease;
+  }
+  
+  .card__button:hover{
+    transform: scale(1.1);
+    background-color: rgb(246, 212, 153);
+  }
